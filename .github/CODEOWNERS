@@ -1,0 +1,7 @@
+# Every change to the public skills repo requires review from Product and the CTO.
+# Ajusta el team de Producto cuando exista en la org (ej. @mediastream/producto).
+* @fcheong3b
+
+# Release and validation pipelines: CTO only.
+/.github/workflows/ @fcheong3b
+/.claude-plugin/ @fcheong3b

@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels: ["dependencies", "ci"]
+
+  - package-ecosystem: "npm"
+    directory: "/installer"
+    schedule:
+      interval: "weekly"
+    labels: ["dependencies", "installer"]
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "npm"
+    directory: "/worker"
+    schedule:
+      interval: "weekly"
+    labels: ["dependencies", "worker"]
+    open-pull-requests-limit: 5
