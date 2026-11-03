@@ -14,7 +14,7 @@ This repository distributes AI agent skills and Claude Code plugins for the Medi
 If you find a skill that leaks internal information, contains instructions outside the scope of the Mediastream product, or could be used to attack an agent that installs it, please report it privately:
 
 - Use GitHub's private vulnerability reporting on this repository, or
-- Email security@mediastream.co
+- Email sistemas@mediastre.am
 
 Please do not open a public issue for security reports. We aim to acknowledge reports within 2 business days.
 
